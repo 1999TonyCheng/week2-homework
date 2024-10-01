@@ -1,0 +1,103 @@
+<html>
+	
+	<!--如果沒有table就不會建立表格的框架 則資料全部顯示成同一列 -->
+	<table border=1>
+		<!--	tr是table row。 
+	  			td是table data。 
+	  			th是table header為表格的標題  
+	  			table屬性border為邊框的粗細
+	  			td屬性colspan=2 意思把該行與下一行合併
+	  			td屬性rowspan=2 意思把該列與下一列合併
+	  			圖片<img src="絕對路徑或相對路徑" 
+				語法: <a> 這邊可以印出文字 </a>  。 a為錨(anchor)鎖定連結 , 
+				語法: <a href=" "> </a> 。搭配屬性href="網址"(ref為參考)
+				unordered list是ul表示無序的資料由上到下
+				ordered list是or表示從1~n的資料由上到下
+				在 html 裡如果要顯示圖片是使用 img 的標籤，比如：<img src="url or 路徑">而要設定超連結的話則是使用 a 的標籤：<a href="url or 路徑">link</a>
+				如果希望超連結是放在圖片上的，只要用 a 標籤把 img 標籤包起來即可。<a href="url or 路徑"><img src="pic-url or 路徑"></a>
+	  			/>
+-->
+
+	  <tr > 
+	    <th>B0248148 鄭文竣的履歷表</th>
+	  </tr>
+
+	  <tr>
+	    <td colspan=2 >姓名</td> <td colspan=2 >鄭文竣</td> <td colspan=2 >英文名字</td> <td colspan=2 >Tony Cheng</td> <td rowspan=5 > <img src="./picture/證件照.jpg" width="200" height="200"/> </td>
+	    <!-- ps.該table的rowspan和<tr>的關係 只要tr數量<=rowspan數，列會對齊有rowspan td的表格直到超過rowspan數就會在下列多新出一列 -->
+	    <!--<ul> 
+	    	<li>你好</li> 
+	    	<li>你好</li> 
+	    	<li>你好</li>
+
+	    </ul> -->
+	  </tr>
+
+	  <tr>
+	    <td>性別</td> <td>男</td> <td>年齡</td> <td>25</td> <td colspan=2>出生日期</td> <td colspan=2>處女座</td>
+	  </tr>
+
+	  <tr>  
+	  	<td colspan=2> 籍貫</td> <td colspan=2>地球</td> <td>身高 181.2</td> <td>體重87.6</td> <td colspan=2>血型 A</td>
+	  </tr>
+
+	  <tr>
+	  	<td colspan=2> 婚姻狀況</td> <td colspan=2> X已婚 <br> V未婚</td> <td colspan=2>駕駛執照 </td> <td colspan=2> V汽車<br> X機車</td>
+	  </tr>
+
+	  <tr> 
+	  	<td colspan=2> 身分證字號 </td> <td colspan=6>A123456789</td>  
+	  </tr>
+
+
+
+	  	<tr>
+	  		<td colspan=2> 地址 </td> <td colspan=4> 地球 台灣 </td> <td colspan= 2>電話</td> <td colspan=4>09123456789</td>
+	  	</tr>
+
+	  	<tr>
+	  		<td colspan=2> 特殊事蹟</td> 
+	  		<td colspan=8> 
+	  			<ol> 
+	  				<li>國中科展佳作(不同液體對於地震的避震效果)</li>
+	  				<li>高中體適能金牌</li>
+	  				<li>學生學習社群 招集人(讀書會組長)</li>  
+	  			</ol> 
+	  		</td> 
+	  		
+	  	</tr>
+
+	  	<tr>
+	  		<td colspan=2> 興趣愛好</td> 
+	  		<td colspan=8> 
+	  			<ul> 
+	  				<li>重量訓練</li>
+	  				<li>籃球</li>
+	  				<li>累積知識</li>
+	  			</ul> 
+	  		</td> 
+	  		
+	  	</tr>
+
+	  	<tr>
+	  		<td colspan=2> 網址</td> 
+	  		<td colspan=8> 
+	  			<a href="https://www.google.com/search?sca_esv=445c9ec50e6b4223&sca_upv=1&sxsrf=ADLYWIJA929QxnbqFJMjnJluukuqdvKR5w:1727092182960&q=%E5%9C%B0%E7%90%83&udm=2&fbs=AEQNm0AaBOazvTRM_Uafu9eNJJzC3QMRKTS5UIeA1ZwBo3sfI5tRK2wzmp0oTr82Uvr9kDXiTRz3gA0DDfNNOgYCYNjBXPyigklVsMmRxiE-2Cn9Bet7vM6s8yBv5o8CuPfaT-YOfRegNJ_Zcx-tR_-oc2VEIzjjT09MAniuDKT1bIproSFlnLiAZiiHqr-sfpmmtPhuETPr&sa=X&ved=2ahUKEwiC57zg_9iIAxX8bfUHHShMM3IQtKgLegQIFRAB&biw=1920&bih=859&dpr=1">我家</a>
+	  			 
+	  			<a href="https://www.google.com/search?q=%E6%9C%80%E9%AB%98%E6%8C%87%E6%8F%AE%E5%AE%98&sca_esv=445c9ec50e6b4223&sca_upv=1&udm=2&biw=1920&bih=859&sxsrf=ADLYWII4x4JhYqndiOE7t9f5y5odMqqIWA%3A1727091909063&ei=xVTxZsbFA8S-vr0PgemZiAg&ved=0ahUKEwiGvO_d_tiIAxVEn68BHYF0BoEQ4dUDCBA&uact=5&oq=%E6%9C%80%E9%AB%98%E6%8C%87%E6%8F%AE%E5%AE%98&gs_lp=Egxnd3Mtd2l6LXNlcnAiD-acgOmrmOaMh-aPruWumDIFEAAYgAQyBxAAGIAEGBgyBxAAGIAEGBgyBxAAGIAEGBgyBxAAGIAEGBgyBxAAGIAEGBgyCRAAGAcYxwMYHki0wxRQtL0UWNjBFHAFeACQAQCYATigAbYBqgEBNLgBA8gBAPgBAZgCBqACRsICBBAjGCeYAwCIBgGSBwE2oAfgAw&sclient=gws-wiz-serp"> <img src="./picture/OIP.jpg"/> </a>
+	  		</td> 
+	  		
+	  	</tr>
+
+
+
+
+	</table>
+
+	<br>
+
+	<table border=1>
+		
+	</table>
+
+</html>
